@@ -6,6 +6,7 @@ const SignInSignUpModal = ({ isOpen, onClose , isSignUp}) => {
   const [formData, setFormData] = useState({ username: "",name: "", email: "" , password : ""});
 
   if (!isOpen) return null;
+  // adding a comment
 
 
   const handleSubmit = async (e) => {
